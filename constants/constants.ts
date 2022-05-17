@@ -1,0 +1,1 @@
+export const NUMBER_NEWS_PER_PAGE: number = 9;
