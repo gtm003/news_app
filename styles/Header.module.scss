@@ -1,0 +1,13 @@
+.header {
+  background: linear-gradient(90deg, #3951e7 20.77%, #832ab9 91.64%);
+  height: 40px;
+}
+.container {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1210px;
+  max-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

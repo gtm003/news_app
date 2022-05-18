@@ -1,0 +1,37 @@
+.container {
+  color: white;
+  font-size: 1.2rem;
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 68px;
+  height: 40px;
+}
+
+.list {
+  position: absolute;
+  display: none;
+  width: 76px;
+  height: 73px;
+  gap: 5px;
+  &.isOpen {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 15px 5px 8px;
+  &:hover {
+    background: #dee2f8;
+  }
+}
